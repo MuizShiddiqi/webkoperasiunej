@@ -1,0 +1,133 @@
+html, body{
+    height:auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(bg.jpg);
+    color: rgba(0, 0, 0, 0.8);
+	background-size: cover;
+    font-family: Arial Black;
+	font-size: 12pt;
+    font-weight: 200;
+	color: #FFF;
+    position: relative;
+}
+
+#container{
+    height: auto;
+	position: relative;
+	padding: 6px 125px 0px;
+}
+
+header {
+    width: 100%;
+    height:110px;
+	position: relative;
+    text-align: center;
+	padding: 1px 0px 1px;
+    background-image: url(1.png);
+    background-size:cover;
+}
+
+.judul{
+    position: relative;
+    top: 11px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: Cooper Black;
+}
+
+.logo1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position:absolute;
+    top: 9px;
+    right: 28%
+}
+
+.logo2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 28%;
+}
+
+#menu
+{
+    width: 80%%;
+    background-color: #ffe900;
+}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 10px 10px;
+		letter-spacing: 1px;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size: 15px;
+		color: black;
+	}
+
+#menu .active a
+{
+	background: #877b00;
+	border-radius: 2px;
+	color: rgba(255,255,255,1);
+}
+
+.contentbox{
+    width: auto;
+    height: auto;
+    background-color: #f2f1e8;
+	position: relative;
+    padding: 8px 38px;
+}
+
+h2{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: Elephant;   
+}
+
+h3{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-family: Arial Black; 
+}
+
+.layanggota{
+    width: 80%px;
+    height: auto;
+    background-color: #d0ff01;
+    color: black;
+    border-radius: 8px;
+    padding: 9px 15px;
+}
+
+.layumum{
+    width: 80%px;
+    height: auto;
+    background-color: #d0ff01;
+    color: black;
+    border-radius: 8px;
+    padding: 9px 15px;
+}

@@ -1,0 +1,348 @@
+html, body{
+    height:auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(bg.jpg);
+    color: rgba(0, 0, 0, 0.8);
+	background-size: cover;
+    font-family: Arial Black;
+	font-size: 12pt;
+    font-weight: 200;
+	color: #FFF;
+    position: relative;
+}
+h3 {
+    color: black;
+    font-family: fantasy;
+}
+
+#container{
+    height: auto;
+	position: relative;
+	padding: 6px 125px 0px;
+}
+
+header {
+    width: 100%;
+    height:110px;
+	position: relative;
+    text-align: center;
+	padding: 1px 0px 1px;
+    background-image: url(1.png);
+    background-size:cover;
+}
+
+.judul{
+    position: relative;
+    top: 11px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: Cooper Black;
+}
+
+.logo1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position:absolute;
+    top: 9px;
+    right: 28%
+}
+
+.logo2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 28%;
+}
+#menu
+{
+    width: 80%%;
+    background-color: #ffe900;
+}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 10px 10px;
+		letter-spacing: 1px;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size: 15px;
+		color: black;
+	}
+
+#menu .active a
+{
+	background: #877b00;
+	border-radius: 2px;
+	color: rgba(255,255,255,1);
+}
+
+.contentbox{
+    width: auto;
+    height: auto;
+    background-color: #f2f1e8;
+	position: relative;
+    padding: 25px 38px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+
+}
+
+#slider {
+    overflow:hidden;
+}
+
+#slider figure .jumbotron {
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    height: auto;
+    margin: 20px;
+    left: 10px;
+    text-align: left;
+    animation: 30s slider infinite;
+}
+
+.box1 {
+    width: 100%;
+    height: ;
+    position: relative;
+}
+
+
+@media screen and (max-width : 360px){
+    #container{
+    margin: 0px;
+	position: relative;
+	padding:0px 0px 0px;
+    }
+header {
+    width: 100%;
+    height:80px;
+	position: relative;
+    text-align: center;
+	padding: 1px 12px 1px;
+    background-image: url(1.png);
+    background-size:cover;
+}
+    
+    .judul{
+    text-align: center;
+    position: relative;
+    top: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    font-family: Cooper Black;
+}
+    
+    .logo1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 14%
+    }
+
+    .logo2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 14%;
+    }
+    
+    #menu {
+    padding: 0px 1px 0px;
+    width:360px;
+    background-color: #ff6600;
+	position: relative;
+    }
+    
+    #menu ul{
+        width: 100%;
+		display: inline-block;
+        padding: inherit;
+	}
+	
+	#menu li{
+		display: block;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span{
+        padding:inherit;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 12px;
+		color: rgba(255,255,255,0.80);
+	}
+	
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu .active a{
+    
+    height: 20px;
+	background: #2651a8;
+	border-radius: 6px;
+	color: rgba(255,255,255,1);
+}
+    
+	#menu ul
+	{
+        width: 100%;
+		display: inline-block;
+        text-align: center;
+	}
+	
+	#menu li{
+		display: block;
+		float: inherit;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span{
+        padding: 2px 2px;
+		letter-spacing: 1px;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: black;
+	}
+
+#menu .active a{
+    background: #877b00;
+	border-radius: 3px;
+	color: rgba(255,255,255,1);
+}
+
+.contentbox{
+    width: 360px;
+    height: auto;
+    background-color: #f2f1e8;
+	position: relative;
+    padding: 1px 1px 0px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+
+}
+
+#slider {
+    overflow:hidden;
+}
+
+#slider figure .jumbotron {
+    width: 20%;
+    height: 190px;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    height: 30px;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slider infinite;
+}

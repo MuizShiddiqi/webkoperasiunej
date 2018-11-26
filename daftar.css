@@ -1,0 +1,229 @@
+html, body{
+    height:auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(bg.jpg);
+    color: rgba(0, 0, 0, 0.8);
+	background-size: cover;
+    font-family: Arial Black;
+	font-size: 12pt;
+    font-weight: 200;
+	color: #FFF;
+    position: relative;
+}
+
+#container{
+    height: auto;
+	position: relative;
+	padding: 6px 125px 0px;
+}
+
+header {
+    width: 100%;
+    height:110px;
+	position: relative;
+    text-align: center;
+	padding: 1px 0px 1px;
+    background-image: url(1.png);
+    background-size:cover;
+}
+
+.judul{
+    position: relative;
+    top: 11px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: Cooper Black;
+}
+
+.logo1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position:absolute;
+    top: 9px;
+    right: 28%
+}
+
+.logo2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 28%;
+}
+
+.contentbox{
+    width: 1000px;
+    height: auto;
+    background-color: #f2f1e8;
+	position: relative;
+    top: 30px;
+    padding: 1px 50px 0px;
+    color: black;
+}
+
+table {
+    color: #111;
+    font-family: Times New Roman;
+}
+
+.nama{
+    font-family: Century;
+    font-size: 13pt;
+    width: 500px;
+    height: 35px;
+    border: 1px solid #000000;
+    padding-left: 5px;
+    margin-top: 1px;
+    margin-left: 100px;
+    display: compact;
+    box-shadow: #000000;
+    border-radius: 5px;
+}
+
+.alamat{
+    width: 500px
+    font-family: Century;
+    font-size: 13pt;
+    border: 1px solid #000000;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 5px;
+    display: compact;
+    box-shadow: #000000;
+    border-radius: 5px;
+}
+
+.jeniskelamin{
+    font-family: Century;
+    color:#000000;
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0px;
+    display: compact;
+}
+        
+.agama{
+    font-family: Century;
+    color:#000000;
+    margin-top: 35px;
+    margin-left: 100px;
+    height: 15px
+    position: relative;
+    top: 0px;
+    display: compact;
+}
+
+.submit:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.footertext{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Century;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+.tgllahir{
+    font-family: Century;
+    font-size: 12pt;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-left: 100px;
+    height: 30px;
+    margin-right: -18px;
+ }
+
+.tgllahirtext{
+    margin-left: 15px;
+    color: #000000;
+    font-family: Century;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.jeniskelamintext{
+    margin-left: 15px;
+    color: #000000;
+    font-family: Century;
+    font-size: 12pt;
+    text-align: left;
+}
+        
+.agamatext{
+    margin-left: 15px;
+    color: #000000;
+    font-family: Century;
+    font-size: 12pt;
+    text-align: left;
+}
+                    
+.tlp{
+    font-family: Century;
+    font-size: 13pt;
+    width: 500px;
+    height: 35px;
+    border: 1px solid #000000;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 5px;
+    display: compact;
+    box-shadow:#000000;
+    border-radius: 5px;
+}
+.content{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.submit{
+    position:relative;
+    box-sizing:border-box;
+    display:block;
+    width:100px;
+    border: 0px none;
+    padding: 0px 15px;
+    text-align:center;
+    font-family:Century;
+    font-weight:400;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 4px;
+    color:#FFF;
+    background:#b22222 none repeat scroll 0% 0%;
+    height: 30px;
+    line-height: 29px;  font-size: 16px;
+    margin:auto;
+    margin-top:10px;
+    }
+             
+.reset{
+    position:relative;
+    box-sizing:border-box;
+    display:block;
+    width:100px;
+    border: 0px none;
+    padding: 0px 15px;
+    text-align:center;
+    font-family:Century;
+    font-weight:400;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 4px;
+    color:#FFF;
+    background:#b22222 none repeat scroll 0% 0%;
+    height: 30px;
+    line-height: 29px;
+    font-size: 16px;
+    margin:auto;
+    margin-top:10px;
+}
